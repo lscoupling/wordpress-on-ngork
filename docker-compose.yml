@@ -38,6 +38,6 @@ services:
     environment:
       NGROK_PROTOCOL: tcp
       NGROK_PORT: wordpress:80
-      NGROK_AUTH: 2AwF3bbPkoGYTs4ra0ya27A4sUF_6YeEqZajJ5s1C5uTC1887
+      NGROK_AUTH: your auth
 volumes:
   db_data:
